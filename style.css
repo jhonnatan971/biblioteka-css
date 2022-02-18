@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .nav {
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.nav-title {
+    color: white;
+    margin: 16px;
+    font-family: 'Roboto', sans-serif, black 900 ;
+    flex: 1;
+}
+.nav-linkscopy {
+    display: flex;
+    align-items: center;
+}
+
+li, button {
+    margin: 16px;
+    font-family: 'Roboto', sans-serif;
+    list-style:none
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+.nav-linkscopy li button.btn {
+    color: white;
+    background-color: #17A2B8;
+    height: 40px;
+    border-color: solid black;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.boton .btn{
+    border: 2px solid rgb(15, 200, 170);
+    height: 40px;
+    width: 200px;
+    margin: 50px 25px 5px 25px;
+    border-radius: 15px;
+    color: rgb(15, 200, 170);
+    background-color: whitesmoke;
+}
+.row {
+    display: flex;
+    margin: 16px;
+}
+
+.col {
+    flex: 1;
+    height: 50px;
+    background-color: aquamarine;
+    margin: 16px;
+    padding: 8px;
+}
+
+.col-2 {
+    flex: 2;
+    height: 50px;
+    background-color: aquamarine;
+    margin: 16px;
+    padding: 8px;
+}
+
+.col-3 {
+    flex: 3;
+    height: 50px;
+    background-color: aquamarine;
+    margin: 16px;
+    padding: 8px;
+}
+.bloque1{
+    display: block;
+    height: 150px;
+    background-color: green;
+}
+
+.bloque2{
+    display: inline-block;
+    width: 25%;
+    height: 300px;
+    background-color: blue;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.bloque3{
+    display: inline-block;
+    width: 65%;
+    height: 400px;
+    background-color: red;
+    vertical-align: top;
+    margin: 10px;
+    
+}
+
+div .bloque4 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 10px;
+}
+
+div .bloque5 {
+    display: block;
+    height: 100px;
+    width: 400px;
+    background-color:blueviolet;
+    margin: 10px;
+}
